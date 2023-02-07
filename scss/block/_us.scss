@@ -1,0 +1,214 @@
+#us{
+    background: #2C343E;
+}
+.us__content{
+    padding-top: 99px;
+    margin-bottom: 200px;
+}
+.us__tittle{
+    max-width: 329px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;  
+}
+.us__text{
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;   
+    margin-bottom: 86px;
+}
+.us__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.us__item{
+    width: 350px;
+    margin-bottom: -150px;
+    border-radius: 8px;
+    background-color: #0E8784;
+}
+.us__img{
+    max-width: 71px;
+    height: 72px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 72px;
+    margin-bottom: 56px;
+}
+.us__item-tittle{
+    max-width: 160px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;  
+}
+.us__item-text{
+    max-width: 256px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7; 
+    margin-bottom: 48px;  
+}
+@media only screen and (max-width:1134px){
+    .us__content{
+        height: 573px;
+    }
+    .us__tittle{
+        max-width: 264px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 24px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FEFCF7;  
+    }
+    .us__text{
+        max-width: 540px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;   
+        margin-bottom: 70px;
+    }
+    .us__list{
+        display: block;
+    }
+    .us__item{
+        width: 573px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 24px;
+        border-radius: 8px;
+        background-color: #0E8784;
+        display: flex;
+        align-items: center;
+    }
+    .us__img{
+        max-width: 71px;
+        height: 72px;
+        margin-left: 72px;
+        margin-top: 62px;
+    }
+    .us__item-tittle{
+        max-width: 150px;
+        margin-right: 243px;
+        margin-left: 0;
+        margin-top: 41px;
+        margin-bottom: 16px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FEFCF7;  
+    }
+    .us__item-text{
+        max-width: 288px;
+        margin-right: 0;
+        margin-left: 0;
+
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7; 
+        margin-bottom: 48px;  
+    }
+}
+@media only screen and (max-width:630px){
+    .us__content{
+        height: 902px;
+    }
+    .us__tittle{
+        max-width: 230px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 24px;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+        color: #FEFCF7;  
+    }
+    .us__text{
+        max-width: 230px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;   
+        margin-bottom: 70px;
+    }
+    .us__list{
+        display: block;
+    }
+    .us__item{
+        width: 279px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 24px;
+        border-radius: 8px;
+        background-color: #0E8784;
+        display: block;
+    }
+    .us__img{
+        max-width: 71px;
+        height: 72px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 72px;
+        margin-bottom: 56px;
+    }
+    .us__item-tittle{
+        max-width: 150px;
+        margin-right: 243px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 41px;
+        margin-bottom: 16px;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FEFCF7;  
+    }
+    .us__item-text{
+        max-width: 212px;
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #FEFCF7; 
+        padding-bottom: 48px;  
+    }
+}

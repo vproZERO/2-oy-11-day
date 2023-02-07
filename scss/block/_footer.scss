@@ -1,0 +1,117 @@
+#footer{
+    background: #2C343E;
+}
+.footer__content{
+    padding-top: 47px;
+    padding-bottom: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__img{
+    max-width: 236px;
+    flex-shrink: 0;
+}
+.footer__list{
+    display: flex;
+    align-items:center;
+}
+.footer__item +.footer__item{
+    margin-left: 32px;
+}
+.footer__item-link{
+    max-width: 121px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: 'Barlow';
+    color: #83888F;  
+}
+.footer__icon-box{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__icon+.footer__icon{
+    margin-left: 24px;
+}
+.footer__icon{
+    flex-shrink: 0;
+}
+@media only screen and (max-width:720px){
+ 
+    .footer__content{
+        padding-top: 47px;
+        padding-bottom: 47px;
+        display: block;
+    }
+    .footer__img{
+        max-width: 236px;
+        height: 26px;
+        display: block;
+        flex-shrink: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 32px;
+    }
+    .footer__list{
+        display: flex;
+        max-width: 283px;
+        align-items:center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 65px;
+    }   
+    .footer__icon-box{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 120px;
+    }
+}
+@media only screen and (max-width:356px){
+   
+    .footer__content{
+        padding-top: 47px;
+        padding-bottom: 47px;
+        display: block;
+    }
+    .footer__img{
+        max-width: 217px;
+        height: 26px;
+        display: block;
+        flex-shrink: 0;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 32px;
+    }
+    .footer__list{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 65px;
+    }   
+    .footer__icon-box{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 120px;
+    } 
+    .footer__item +.footer__item{
+        margin-left: 0;
+    }
+    .footer__item-link{
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .footer__item{
+        margin-bottom: 24px;
+    }
+    .footer__icon-box{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 120px;
+    }
+}
