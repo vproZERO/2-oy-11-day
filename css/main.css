@@ -111,7 +111,7 @@ body {
 .hero__content {
   margin-top: 27px;
   margin-bottom: 123px;
-  background-image: url("../../img/hero-img.svg");
+  background-image: url("../img/hero-img.svg");
   background-repeat: no-repeat;
 }
 
