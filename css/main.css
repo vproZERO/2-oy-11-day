@@ -164,6 +164,14 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+  
+.hero__content {
+  margin-top: 27px;
+  margin-bottom: 123px;
+  background-image: url("../img/hero-img.svg");
+  background-repeat: no-repeat;
+  background: size 660px;
+}
   .hero__text {
     max-width: 279px;
     margin-right: auto;
@@ -191,7 +199,7 @@ body {
   padding-bottom: 200px;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url("../../img/collect-img.svg");
+  background-image: url("../img/collect-img.svg");
 }
 
 .collect__list {
@@ -250,7 +258,7 @@ body {
     padding-bottom: 200px;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url("../../img/collect-img.svg");
+    background-image: url("../img/collect-img.svg");
     background-size: 689px;
   }
   .collect__list {
@@ -302,7 +310,7 @@ body {
     padding-bottom: 200px;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url("../../img/collect-img.svg");
+    background-image: url("../img/collect-img.svg");
     background-size: 375px;
   }
   .collect__list {
@@ -349,7 +357,7 @@ body {
     padding-bottom: 200px;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url("../../img/collect-img.svg");
+    background-image: url("../img/collect-img.svg");
     background-size: 255px;
   }
 }
